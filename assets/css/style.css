@@ -1,0 +1,21 @@
+
+.container{
+    display: flex;
+    margin: 5px;
+ 
+    flex-flow: row;
+    max-width: 200px;
+    
+}
+
+.item{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.justfy{
+    
+    justify-content: space-around;
+}
