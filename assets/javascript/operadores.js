@@ -1,6 +1,11 @@
 var num1 = 5;
 var num2 = 7;
 
+//Operadores novos em JavaScript.
+// === compara valor e tipo
+// !== diferença entre valor e tipo
+// ** exponencial
+
 function sePar(valor){
     (valor % 2 ==0) ? console.log("É par") : console.log("Não é par");
 }
