@@ -60,5 +60,5 @@ const pessoa2 = {
     idade: 42,
 }
 
-console.log(calculaIdade.call(pessoa1, 10));
+console.log(calculaIdade.call(pessoa1, 15));
 console.log(calculaIdade.apply(pessoa2,[20]));
