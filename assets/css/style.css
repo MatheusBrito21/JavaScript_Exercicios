@@ -19,3 +19,7 @@
     
     justify-content: space-around;
 }
+
+.justfy2{
+    justify-content: space-evenly;
+}

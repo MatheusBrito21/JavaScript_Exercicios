@@ -21,4 +21,19 @@ function seNegativo(){
     }
 }
 
+function somaMais10(){
+    current_number +=10;
+    number.innerHTML = current_number;
+}
+
+function sub10(){
+    current_number -=10;
+    number.innerHTML = current_number;
+}
+
+function resetaContador(){
+    current_number = 0;
+    number.innerHTML = current_number;
+}
+
 
