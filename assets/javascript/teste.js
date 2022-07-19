@@ -20,3 +20,5 @@ function seNegativo(){
         number.style.color = 'black';
     }
 }
+
+
