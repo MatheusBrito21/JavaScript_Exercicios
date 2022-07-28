@@ -32,6 +32,11 @@ footer{
     
 }
 
+footer.dark-mode {
+	background-color: #8d9797;
+	color: #000401;
+}
+
 button{
     border-radius: 40px;
     border: none;
