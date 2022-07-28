@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body{
+    background-color: rgba(245, 245, 245, 0.973);
+    color: rgb(124, 124, 124);
+    font-family: 'Quicksand';
+    font-size: 16pt;
+    margin: 0;
+    transition-delay: 00.05s;
+    transition-duration: 00.25s;
+    transition-timing-function: ease-in-out;
+}
+
+body.dark-mode{
+    background-color: rgba(31, 31, 31, 0.973);
+    color: rgb(241, 241, 241);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size: 12pt;
+    background-color:rgb(124, 124, 124);
+    color:rgba(245, 245, 245, 0.973); 
+    border: none;
+    border-radius: 40px;
+    height: 30px;
+    width: 150px;
+    transition-delay: 00.05s;
+    transition-duration: 00.25s;
+    transition-timing-function: ease-in-out;
+}
+
+button:hover{
+    background-color:rgb(61, 61, 61);
+    font-size: 14pt;
+}
+
+button.dark-mode{
+    background-color:  rgb(241, 241, 241);
+    color: rgba(31, 31, 31, 0.973);
+}
+
+button.dark-mode:hover{
+    background-color:rgb(124, 124, 124);
+    font-size: 14pt;
+}
+
+footer{
+    background-color:rgb(124, 124, 124);
+    color:rgba(245, 245, 245, 0.973);
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0%; 
+}
+
+footer.dark-mode{
+    background-color:  rgb(241, 241, 241);
+    color: rgba(31, 31, 31, 0.973);
+}
